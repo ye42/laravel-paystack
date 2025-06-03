@@ -90,7 +90,7 @@ Open your .env file and add your public key, secret key, merchant email and paym
 PAYSTACK_PUBLIC_KEY=xxxxxxxxxxxxx
 PAYSTACK_SECRET_KEY=xxxxxxxxxxxxx
 PAYSTACK_PAYMENT_URL=https://api.paystack.co
-MERCHANT_EMAIL=your-email@example.com
+MERCHANT_EMAIL=laravelye@gmail.com
 ```
 
 Set up routes and controller methods like so:
@@ -158,7 +158,7 @@ class PaymentController extends Controller
 
 ## Security
 
-If you discover any security related issues, please email emresural42@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email laravelye@gmail.com instead of using the issue tracker.
 
 ## Credits
 
