@@ -9,20 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack;
+namespace Ye42\Paystack;
 
 use Illuminate\Support\ServiceProvider;
 
 class PaystackServiceProvider extends ServiceProvider
 {
-
-    /*
-    * Indicates if loading of the provider is deferred.
-    *
-    * @var bool
-    */
-    protected $defer = false;
-
     /**
     * Publishes all the config file this package needs to function
     */
@@ -41,9 +33,7 @@ class PaystackServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('laravel-paystack', function () {
-
             return new Paystack;
-
         });
     }
 

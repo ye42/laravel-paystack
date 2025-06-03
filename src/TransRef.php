@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack;
+namespace Ye42\Paystack;
 
 class TransRef
 {

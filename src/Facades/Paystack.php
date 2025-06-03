@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack\Facades;
+namespace Ye42\Paystack\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

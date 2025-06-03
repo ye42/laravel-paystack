@@ -1,6 +1,6 @@
 <?php
 
-namespace Unicodeveloper\Paystack\Test;
+namespace Ye42\Paystack\Test;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
@@ -11,7 +11,7 @@ class HelpersTest extends TestCase {
 
     public function setUp(): void
     {
-        $this->paystack = m::mock('Unicodeveloper\Paystack\Paystack');
+        $this->paystack = m::mock('Ye42\Paystack\Paystack');
         $this->mock = m::mock('GuzzleHttp\Client');
     }
 
@@ -23,11 +23,10 @@ class HelpersTest extends TestCase {
     /**
      * Tests that helper returns
      *
-     * @test
      * @return void
      */
-    function it_returns_instance_of_paystack () {
-
-        $this->assertInstanceOf("Unicodeveloper\Paystack\Paystack", $this->paystack);
+    public function testItReturnsInstanceOfPaystack()
+    {
+        $this->assertInstanceOf("Ye42\Paystack\Paystack", $this->paystack);
     }
 }
